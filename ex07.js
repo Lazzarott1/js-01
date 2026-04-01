@@ -9,7 +9,7 @@ function tabela() {
     let indice = codigos.indexOf(codigo);
 
     if (indice != -1) {
-        alert(sabores[indice] , " - R$ " , precos[indice]);
+        alert(sabores[indice] + " - R$ " + precos[indice]);
     } else {
         alert("Código inválido!");
     }
